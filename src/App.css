@@ -1,0 +1,53 @@
+:root {
+  --primary-color: #116466;
+  --secondary-color: #2C3531;
+  --tertiary-color: #FFCB9A;
+  --quaternary-color: #D1E8E2;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--quaternary-color);
+  margin: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  text-shadow: 0 0 5px var(--secondary-color);
+}
+
+.app-wrapper {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* home section */
+#home {
+  padding: 4rem;
+  height: 100vh;
+  background: url(./assets/images/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.lg-heading {
+  font-size: 6rem;
+  margin-top: 20vh;
+}
+
+.sm-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+  background-color: rgba(44, 53, 49, 0.5);
+  box-shadow: 0 0 5px var(--secondary-color);
+  font-style: italic;
+}
+
+.secondary-text {
+  color: var(--tertiary-color);
+}
