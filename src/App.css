@@ -213,11 +213,11 @@ header {
 /* end home section */
 
 /* about section */
-#about {
+#about, #work, #contact {
   padding: 0 4rem;
 }
 
-#about .lg-heading {
+#about .lg-heading, #work .lg-heading {
   margin-top: 2rem;
 }
 
@@ -274,6 +274,50 @@ header {
   grid-row: 2;
 }
 /* end about section */
+
+/* work section */
+.project {
+  display: flex;
+  flex-flow: column wrap;
+  width: 270px;
+  padding-bottom: 1rem;
+}
+
+.project-img {
+  width: 270px;
+  height: 270px;
+  border: var(--secondary-color) 3px solid;
+}
+
+.project-link, .github-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 0.2rem;
+}
+
+.project-link {
+  background-color: var(--quaternary-color);
+  color: var(--secondary-color);
+}
+
+.github-link {
+  background-color: var(--secondary-color);
+  color: var(--quaternary-color);
+}
+
+.project-link:hover, .github-link:hover {
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  transition: all 0.5s ease-out;
+}
+
+.project-img:hover {
+  opacity: 0.5;
+  transition: all 0.5s ease-out;
+}
+/* end work section */
 
 
 

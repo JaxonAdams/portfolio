@@ -1,7 +1,16 @@
 import React, { useState } from 'react';
 import Navigation from './Navigation';
 
-const Header = ({ setHomeSelected, setAboutSelected, homeSelected, aboutSelected }) => {
+const Header = (props) => {
+    const {
+        setHomeSelected, 
+        setAboutSelected,
+        setWorkSelected, 
+        homeSelected, 
+        aboutSelected,
+        workSelected
+    } = props;
+
     const [ showMenu, setShowMenu ] = useState(false);
 
     const toggleMenu = () => {
@@ -18,9 +27,11 @@ const Header = ({ setHomeSelected, setAboutSelected, homeSelected, aboutSelected
             <Navigation 
             showMenu={showMenu} 
             setHomeSelected={setHomeSelected} 
-            setAboutSelected={setAboutSelected} 
+            setAboutSelected={setAboutSelected}
+            setWorkSelected={setWorkSelected} 
             homeSelected={homeSelected} 
             aboutSelected={aboutSelected}
+            workSelected={workSelected}
             toggleMenu={toggleMenu} />
         </header>
     );
