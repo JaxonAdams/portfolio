@@ -5,10 +5,12 @@ const Header = (props) => {
     const {
         setHomeSelected, 
         setAboutSelected,
-        setWorkSelected, 
+        setWorkSelected,
+        setContactSelected, 
         homeSelected, 
         aboutSelected,
-        workSelected
+        workSelected,
+        contactSelected
     } = props;
 
     const [ showMenu, setShowMenu ] = useState(false);
@@ -28,10 +30,12 @@ const Header = (props) => {
             showMenu={showMenu} 
             setHomeSelected={setHomeSelected} 
             setAboutSelected={setAboutSelected}
-            setWorkSelected={setWorkSelected} 
+            setWorkSelected={setWorkSelected}
+            setContactSelected={setContactSelected} 
             homeSelected={homeSelected} 
             aboutSelected={aboutSelected}
             workSelected={workSelected}
+            contactSelected={contactSelected}
             toggleMenu={toggleMenu} />
         </header>
     );

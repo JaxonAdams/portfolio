@@ -6,9 +6,11 @@ const Navigation = (props) => {
         setHomeSelected,
         setAboutSelected,
         setWorkSelected,
+        setContactSelected,
         homeSelected,
         aboutSelected,
         workSelected,
+        contactSelected,
         toggleMenu
     } = props
 
@@ -16,6 +18,7 @@ const Navigation = (props) => {
         setHomeSelected(true);
         setAboutSelected(false);
         setWorkSelected(false);
+        setContactSelected(false);
         toggleMenu();
     };
 
@@ -23,6 +26,7 @@ const Navigation = (props) => {
         setAboutSelected(true);
         setHomeSelected(false);
         setWorkSelected(false);
+        setContactSelected(false);
         toggleMenu();
     };
 
@@ -30,8 +34,17 @@ const Navigation = (props) => {
         setWorkSelected(true);
         setHomeSelected(false);
         setAboutSelected(false);
+        setContactSelected(false);
         toggleMenu();
-    }
+    };
+
+    const displayContact = () => {
+        setContactSelected(true);
+        setHomeSelected(false);
+        setAboutSelected(false);
+        setWorkSelected(false);
+        toggleMenu();
+    };
 
     return (
         <nav className={`menu ${showMenu && 'show'}`}>
@@ -64,7 +77,12 @@ const Navigation = (props) => {
                     </p>
                 </li>
                 <li className={`nav-item ${showMenu && 'show'}`}>
-                    <p className='menu-link'>Contact Me</p>
+                    <p 
+                    className={`menu-link ${contactSelected && 'current'}`}
+                    onClick={() => displayContact()}
+                    >
+                        Contact Me
+                    </p>
                 </li>
             </ul>
         </nav>

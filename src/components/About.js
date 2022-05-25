@@ -19,7 +19,7 @@ const About = () => {
         title: 'Back End Skills',
         skills: [
             'Node.js and NPM',
-            'Express.js and Building APIs',
+            'Express.js and building APIs',
             'SQL and Relational Databases',
             'Sequelize and other ORMs',
             'NoSQL, specifically MongoDB and Mongoose'

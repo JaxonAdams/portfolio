@@ -218,7 +218,7 @@ header {
   padding: 0 4rem;
 }
 
-#about .lg-heading, #work .lg-heading {
+#about .lg-heading, #work .lg-heading, #contact .lg-heading {
   margin-top: 2rem;
 }
 
@@ -327,6 +327,101 @@ header {
   transition: all 0.5s ease-out;
 }
 /* end work section */
+
+/* contact section */
+#contact {
+  box-sizing: border-box;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.info-box {
+  padding: 1.5rem 2.5rem;
+  background-color: var(--secondary-color);
+  border-radius: 12px;
+  margin: 0 1rem 1.5rem 1rem;
+  padding: 1rem;
+}
+
+.info-box:hover {
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  padding: 0 2rem;
+  transition: all 0.5s ease-out;
+}
+
+.contact-form {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+}
+
+.form-title-container {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 12px;
+}
+
+.form-title {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.form-input {
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.message {
+  resize: none;
+  font-size: 1.2rem;
+}
+
+.submit {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: var(--quaternary-color);
+  padding: 1rem 1.5rem;
+}
+
+.resume-footer {
+  height: 20vh;
+  width: 50vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.resume-link {
+  text-decoration: none;
+  width: 70%;
+  margin: 0 auto 2rem auto;
+  font-size: 2rem;
+  padding: .5rem 1.5rem;
+  border-radius: 8px;
+  color: var(--quaternary-color);
+  background-color: var(--secondary-color);
+  transition: all 0.5s ease-out;
+}
+
+.resume-link:hover {
+  color: var(--secondary-color);
+  background-color: var(--tertiary-color);
+}
+/* end contact section */
 
 
 
@@ -463,6 +558,14 @@ header {
   .projects {
       grid-template-columns: repeat(2, 1fr);
       justify-items: center;
+  }
+
+  .contact-form {
+    padding: 0;
+  }
+
+  .resume-footer {
+    height: 30vh;
   }
 }
 
