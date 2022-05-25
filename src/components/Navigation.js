@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Navigation = ({ showMenu }) => {
-    console.log(showMenu);
     return (
         <nav className={`menu ${showMenu && 'show'}`}>
             <div className={`menu-branding ${showMenu && 'show'}`}>
