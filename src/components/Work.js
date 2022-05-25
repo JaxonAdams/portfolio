@@ -24,7 +24,7 @@ const Work = () => {
     };
 
     const projectFour = {
-        deployedLink: 'https://desolate-river-93042.herokuapp.com',
+        deployedLink: 'https://desolate-river-93402.herokuapp.com',
         githubLink: 'https://github.com/JaxonAdams/budget-pwa',
         title: 'Budget Tracker',
         imgName: 'budget-pwa'
