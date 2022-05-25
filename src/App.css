@@ -19,6 +19,12 @@ h1, h2, h3 {
   text-shadow: 0 0 5px var(--secondary-color);
 }
 
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
 .app-wrapper {
   margin: 0;
   height: 100%;
@@ -206,6 +212,69 @@ h1, h2, h3 {
 }
 /* end home section */
 
+/* about section */
+#about {
+  padding: 0 4rem;
+}
+
+#about .lg-heading {
+  margin-top: 2rem;
+}
+
+.bio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  grid-auto-rows: minmax(100px, auto);
+  box-sizing: border-box;
+}
+
+.bio-portrait {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0 auto 2rem auto;
+  background-image: url(./assets/images/portrait-2.jpg);
+}
+
+.my-bio {
+  grid-column: 2 / 4;
+  grid-row: 1;
+  font-size: 1.5rem;
+  margin-top: 3.2rem;
+}
+
+.skill-header {
+  font-size: 2rem;
+  margin-left: 2.5rem;
+}
+
+.skill-list {
+  line-height: 2.5;
+}
+
+.front-end, .back-end, .other-skills {
+  line-height: 1.7;
+  font-size: 18px;
+  border-bottom: var(--tertiary-color) 5px solid;
+  margin: 0 auto;
+}
+
+.front-end {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.back-end {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.other-skills {
+  grid-column: 3;
+  grid-row: 2;
+}
+/* end about section */
+
 
 
 /* media queries */
@@ -226,6 +295,22 @@ h1, h2, h3 {
   body {
       align-items: center;
       text-align: center;
+      overflow: visible;
+  }
+
+  .app-wrapper {
+    height: 100vh;
+  }
+
+  #home {
+    overflow: hidden;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #about, #work, #contact {
+    padding: 0 2rem;
   }
 
   .lg-heading {
@@ -281,6 +366,10 @@ h1, h2, h3 {
       margin: 0;
   }
 
+  .bio {
+    margin: 0 auto;
+  }
+
   .bio-portrait {
       grid-column: 2;
       grid-row: 1;
@@ -311,6 +400,11 @@ h1, h2, h3 {
 
   .front-end, .back-end, .other-skills {
       margin-bottom: 1.5rem;
+  }
+
+  .skill-list {
+    list-style: none;
+    padding: 0;
   }
 
   .projects {
