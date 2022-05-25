@@ -58,6 +58,112 @@ h1, h2, h3 {
 .close .btn-line:nth-child(3) {
   transform: rotate(-45deg) translate(7px, -6px);
 }
+
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  visibility: hidden;
+}
+
+.menu .show {
+  visibility: visible;
+}
+
+.menu .nav-list {
+  list-style: none;
+}
+
+.menu .nav-item {
+  transform: translate3d(600px, 0, 0);
+  transition: all 0.5s ease-out;
+}
+
+.menu .nav-item:nth-child(1) {
+  transition-delay: 0.1s;
+}
+
+.menu .nav-item:nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+.menu .nav-item:nth-child(3) {
+  transition-delay: 0.3s;
+}
+
+.menu .nav-item:nth-child(4) {
+  transition-delay: 0.4s;
+}
+
+.menu .menu-link {
+  display: inline-block;
+  position: relative;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 1rem 0;
+  font-weight: 400;
+  color: var(--quaternary-color);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.menu .menu-link:hover, .menu .current {
+  color: var(--tertiary-color);
+}
+
+.menu li.show {
+  transform: translate3d(0, 0, 0);
+  transition: all 0.5s ease-out;
+}
+
+.menu .menu-branding, .menu .nav-list {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 50%;
+  height: 100vh;
+  overflow: hidden;
+  opacity: 0.9;
+}
+
+.menu .nav-list {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
+  list-style: none;
+  transform: translate3d(0, -100%, 0);
+  transition: all 0.5s ease-out;
+}
+
+.menu ul.show {
+  transition: all 0.5s ease-out;
+  transform: translate3d(0, 0, 0);
+}
+
+.menu .menu-branding {
+  background: var(--primary-color);
+  transition: all 0.5s ease-out;
+  transform: translate3d(0, 100%, 0);
+}
+
+.portrait, .bio-portrait {
+  width: 250px;
+  height: 250px;
+  background: url(./assets/images/portrait.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: solid 3px var(--tertiary-color);
+}
+
+.menu div.show {
+  transition: all 0.5s ease-out;
+  transform: translate3d(0, 0, 0);
+}
 /* end header section */
 
 /* home section */
