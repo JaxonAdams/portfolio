@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navigation from './Navigation';
 
-const Header = () => {
+const Header = ({ setHomeSelected, setAboutSelected, homeSelected, aboutSelected }) => {
     const [ showMenu, setShowMenu ] = useState(false);
 
     const toggleMenu = () => {
@@ -15,7 +15,13 @@ const Header = () => {
                 <div className='btn-line'></div>
                 <div className='btn-line'></div>
             </div>
-            <Navigation showMenu={showMenu} />
+            <Navigation 
+            showMenu={showMenu} 
+            setHomeSelected={setHomeSelected} 
+            setAboutSelected={setAboutSelected} 
+            homeSelected={homeSelected} 
+            aboutSelected={aboutSelected}
+            toggleMenu={toggleMenu} />
         </header>
     );
 }
