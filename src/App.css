@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
-  overflow: hidden;
+  overflow: visible;
 }
 
 h1, h2, h3 {
@@ -174,11 +174,12 @@ header {
 
 /* home section */
 #home {
-  padding: 4rem;
+  padding: 0 4rem;
   height: 100vh;
   background: url(./assets/images/background.jpg);
   background-attachment: fixed;
   background-size: cover;
+  overflow: hidden;
 }
 
 .lg-heading {
@@ -276,6 +277,14 @@ header {
 /* end about section */
 
 /* work section */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  grid-auto-rows: minmax(100px, auto);
+  box-sizing: border-box;
+}
+
 .project {
   display: flex;
   flex-flow: column wrap;
