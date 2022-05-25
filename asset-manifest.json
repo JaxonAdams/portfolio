@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e5537f07.css",
-    "main.js": "/portfolio/static/js/main.75fba60e.js",
+    "main.css": "/portfolio/static/css/main.312f421a.css",
+    "main.js": "/portfolio/static/js/main.60aa5417.js",
     "static/media/background.jpg": "/portfolio/static/media/background.906c8b2aaa43024c4b27.jpg",
     "static/media/portrait.jpg": "/portfolio/static/media/portrait.b017f4871ba6a9834863.jpg",
+    "static/media/fishing-log.JPG": "/portfolio/static/media/fishing-log.6c7b027722dd92b64443.JPG",
+    "static/media/budget-pwa.JPG": "/portfolio/static/media/budget-pwa.8ffba404c16396c0fee3.JPG",
+    "static/media/git-it-done.JPG": "/portfolio/static/media/git-it-done.2cf08a0ac3c1aac21978.JPG",
+    "static/media/taskmaster-pro.JPG": "/portfolio/static/media/taskmaster-pro.72a1bdf147aa1827c98d.JPG",
+    "static/media/better-than-stack.JPG": "/portfolio/static/media/better-than-stack.79abf978f1511748613d.JPG",
     "static/media/portrait-2.jpg": "/portfolio/static/media/portrait-2.aaa3dfabd2efd36b8e21.jpg",
+    "static/media/blog.JPG": "/portfolio/static/media/blog.fa28a42ae506eb8457ac.JPG",
+    "static/media/run-buddy.JPG": "/portfolio/static/media/run-buddy.e479b1fda7f9baaba489.JPG",
+    "static/media/advice-generator.JPG": "/portfolio/static/media/advice-generator.2f4d7c15e86cf848538f.JPG",
     "index.html": "/portfolio/index.html",
-    "main.e5537f07.css.map": "/portfolio/static/css/main.e5537f07.css.map",
-    "main.75fba60e.js.map": "/portfolio/static/js/main.75fba60e.js.map"
+    "main.312f421a.css.map": "/portfolio/static/css/main.312f421a.css.map",
+    "main.60aa5417.js.map": "/portfolio/static/js/main.60aa5417.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5537f07.css",
-    "static/js/main.75fba60e.js"
+    "static/css/main.312f421a.css",
+    "static/js/main.60aa5417.js"
   ]
 }
