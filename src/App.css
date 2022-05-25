@@ -263,6 +263,10 @@ h1, h2, h3 {
       height: 150px;
   }
 
+  .icon-link {
+    padding: 0;
+  }
+
   #scroll {
       overflow: visible;
   }
