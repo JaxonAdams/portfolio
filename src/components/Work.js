@@ -10,17 +10,17 @@ const Work = () => {
     };
 
     const projectTwo = {
+        deployedLink: 'https://paige-babyshower.herokuapp.com',
+        githubLink: 'https://github.com/JaxonAdams/miniature-invention',
+        title: 'Baby Shower',
+        imgName: 'paige-babyshower'
+    };
+
+    const projectThree = {
         deployedLink: 'https://jadams-fishinglog.herokuapp.com',
         githubLink: 'https://github.com/JaxonAdams/fishing-log',
         title: 'Fishing Log',
         imgName: 'fishing-log'
-    };
-
-    const projectThree = {
-        deployedLink: 'https://betterthanstack.herokuapp.com',
-        githubLink: 'https://github.com/JaxonAdams/better-than-stack',
-        title: 'Coding Forum',
-        imgName: 'better-than-stack'
     };
 
     const projectFour = {
