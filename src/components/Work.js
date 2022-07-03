@@ -31,10 +31,10 @@ const Work = () => {
     };
 
     const projectFive = {
-        deployedLink: 'https://desolate-river-93042.herokuapp.com',
-        githubLink: 'https://github.com/JaxonAdams/budget-pwa',
-        title: 'Budget Tracker',
-        imgName: 'budget-pwa'
+        deployedLink: 'https://bloc-goose-09649.herokuapp.com',
+        githubLink: 'https://github.com/emalie/devinitely-opinionated',
+        title: 'DEVinitely Opinionated',
+        imgName: 'devinitely-opinionated'
     };
 
     const projectSix = {
