@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.00a68504.css",
-    "main.js": "/portfolio/static/js/main.d06bca09.js",
+    "main.js": "/portfolio/static/js/main.8d908e28.js",
     "static/media/background.jpg": "/portfolio/static/media/background.906c8b2aaa43024c4b27.jpg",
     "static/media/portrait.jpg": "/portfolio/static/media/portrait.b017f4871ba6a9834863.jpg",
     "static/media/paige-babyshower.JPG": "/portfolio/static/media/paige-babyshower.5c68573c31310e886114.JPG",
@@ -9,6 +9,7 @@
     "static/media/budget-pwa.JPG": "/portfolio/static/media/budget-pwa.8ffba404c16396c0fee3.JPG",
     "static/media/git-it-done.JPG": "/portfolio/static/media/git-it-done.2cf08a0ac3c1aac21978.JPG",
     "static/media/taskmaster-pro.JPG": "/portfolio/static/media/taskmaster-pro.72a1bdf147aa1827c98d.JPG",
+    "static/media/devinitely-opinionated.JPG": "/portfolio/static/media/devinitely-opinionated.8385709a70ddfa0b3446.JPG",
     "static/media/portrait-2.jpg": "/portfolio/static/media/portrait-2.aaa3dfabd2efd36b8e21.jpg",
     "static/media/blog.JPG": "/portfolio/static/media/blog.fa28a42ae506eb8457ac.JPG",
     "static/media/run-buddy.JPG": "/portfolio/static/media/run-buddy.e479b1fda7f9baaba489.JPG",
@@ -17,10 +18,10 @@
     "static/media/advice-generator.JPG": "/portfolio/static/media/advice-generator.2f4d7c15e86cf848538f.JPG",
     "index.html": "/portfolio/index.html",
     "main.00a68504.css.map": "/portfolio/static/css/main.00a68504.css.map",
-    "main.d06bca09.js.map": "/portfolio/static/js/main.d06bca09.js.map"
+    "main.8d908e28.js.map": "/portfolio/static/js/main.8d908e28.js.map"
   },
   "entrypoints": [
     "static/css/main.00a68504.css",
-    "static/js/main.d06bca09.js"
+    "static/js/main.8d908e28.js"
   ]
 }
