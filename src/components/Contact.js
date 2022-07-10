@@ -1,42 +1,42 @@
-import React, { useState } from 'react';
-import { validateEmail } from '../utils/helpers';
+import React from 'react';
+// import { validateEmail } from '../utils/helpers';
 
 const Contact = () => {
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-    const { name, email, message } = formState;
-    const [errorMessage, setErrorMessage] = useState('');
+    // const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    // const { name, email, message } = formState;
+    // const [errorMessage, setErrorMessage] = useState('');
 
-    const handleChange = (e) => {
-        if (e.target.name === 'email') {
-            const validEmail = validateEmail(e.target.value);
+    // const handleChange = (e) => {
+    //     if (e.target.name === 'email') {
+    //         const validEmail = validateEmail(e.target.value);
 
-            if (!validEmail) {
-                setErrorMessage('Your email is invalid.');
-            } else {
-                if (!e.target.value.length) {
-                    setErrorMessage(`${e.target.name} is required.`);
-                } else {
-                    setErrorMessage('');
-                }
-            }
-        }
+    //         if (!validEmail) {
+    //             setErrorMessage('Your email is invalid.');
+    //         } else {
+    //             if (!e.target.value.length) {
+    //                 setErrorMessage(`${e.target.name} is required.`);
+    //             } else {
+    //                 setErrorMessage('');
+    //             }
+    //         }
+    //     }
 
-        if (!e.target.value.length) {
-            setErrorMessage(`${e.target.name} is required.`);
-        } else {
-            setErrorMessage('');
-        }
+    //     if (!e.target.value.length) {
+    //         setErrorMessage(`${e.target.name} is required.`);
+    //     } else {
+    //         setErrorMessage('');
+    //     }
 
-        if (!errorMessage) {
-            setFormState({ ...formState, [e.target.name]: e.target.value });
-        }
-    };
+    //     if (!errorMessage) {
+    //         setFormState({ ...formState, [e.target.name]: e.target.value });
+    //     }
+    // };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log(formState);
-        // Add submit functionality here
-    }
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     console.log(formState);
+    //     // Add submit functionality here
+    // }
 
     return (
         <div id='contact'>
@@ -53,7 +53,7 @@ const Contact = () => {
                     <p className='contact-type'>Address: 3732 N Oak Blv, Eagle Mountain, UT</p>
                 </div>
             </div>
-            <form className='contact-form' onSubmit={handleSubmit}>
+            {/* <form className='contact-form' onSubmit={handleSubmit}>
                 <div className='form-title-container'>
                     <h3 className='form-title'>Send A Message</h3>
                 </div>
@@ -66,7 +66,7 @@ const Contact = () => {
                     </div>
                 )}
                 <button className='form-input submit' type='submit'>Submit</button>
-            </form>
+            </form> */}
             <div className='resume-footer'>
                 <a className='resume-link' target='_blank' rel='noreferrer' href='https://docs.google.com/document/d/1WEmMjOFzbu4_urYaIPQbD8tOJPgo6y2qq4g0rxTNZwM/edit?usp=sharing'>View My Resume</a>
             </div>
