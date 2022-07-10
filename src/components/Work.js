@@ -3,45 +3,45 @@ import Project from './Project';
 
 const Work = () => {
     const projectOne = {
+        deployedLink: 'https://gottadance-fitness.herokuapp.com',
+        githubLink: 'https://github.com/JaxonAdams/gd-aerobics',
+        title: 'Gotta Dance Punch Pass',
+        imgName: 'gd-aerobics'
+    };
+
+    const projectTwo = {
         deployedLink: 'https://jaxon-planner.herokuapp.com',
         githubLink: 'https://github.com/JaxonAdams/musical-octo-potato',
         title: 'Personal Planner',
         imgName: 'planner'
     };
     
-    const projectTwo = {
+    const projectThree = {
         deployedLink: 'https://jaxon-tech-blog.herokuapp.com',
         githubLink: 'https://github.com/JaxonAdams/blog',
         title: 'Tech Blog',
         imgName: 'blog'
     };
 
-    const projectThree = {
+    const projectFour = {
         deployedLink: 'https://paige-babyshower.herokuapp.com',
         githubLink: 'https://github.com/JaxonAdams/miniature-invention',
         title: 'Baby Shower',
         imgName: 'paige-babyshower'
     };
 
-    const projectFour = {
+    const projectFive = {
         deployedLink: 'https://jadams-fishinglog.herokuapp.com',
         githubLink: 'https://github.com/JaxonAdams/fishing-log',
         title: 'Fishing Log',
         imgName: 'fishing-log'
     };
 
-    const projectFive = {
+    const projectSix = {
         deployedLink: 'https://bloc-goose-09649.herokuapp.com',
         githubLink: 'https://github.com/emalie/devinitely-opinionated',
         title: 'DEVinitely Opinionated',
         imgName: 'devinitely-opinionated'
-    };
-
-    const projectSix = {
-        deployedLink: 'https://jaxonadams.github.io/advice-generator',
-        githubLink: 'https://github.com/JaxonAdams/advice-generator',
-        title: 'Advice Generator',
-        imgName: 'advice-generator'
     };
 
     const projectSeven = {
