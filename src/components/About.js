@@ -41,7 +41,7 @@ const About = () => {
     return (
         <div id='about'>
             <h1 className='lg-heading'>About <span className='secondary-text'>Me</span></h1>
-            <h2 className='sm-heading'>Web Developer, Husband, Father</h2>
+            <h2 className='sm-heading'>Always Learning</h2>
             <div className='bio'>
                 <div className='bio-portrait'></div>
                 <p className='my-bio'>
