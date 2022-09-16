@@ -10,39 +10,46 @@ const Work = () => {
     };
 
     const projectTwo = {
+        deployedLink: 'https://angler-logbook.vercel.app',
+        githubLink: 'https://github.com/JaxonAdams/angler-logbook',
+        title: "WIP Angler's Logbook",
+        imgName: 'angler-logbook'
+    };
+    
+    const projectThree = {
         deployedLink: 'https://jaxon-planner.herokuapp.com',
         githubLink: 'https://github.com/JaxonAdams/musical-octo-potato',
         title: 'Personal Planner',
         imgName: 'planner'
     };
     
-    const projectThree = {
+    const projectFour = {
         deployedLink: 'https://jaxon-tech-blog.herokuapp.com',
         githubLink: 'https://github.com/JaxonAdams/blog',
         title: 'Tech Blog',
         imgName: 'blog'
     };
 
-    const projectFour = {
+    const projectFive = {
         deployedLink: 'https://paige-babyshower.herokuapp.com',
         githubLink: 'https://github.com/JaxonAdams/miniature-invention',
         title: 'Baby Shower',
         imgName: 'paige-babyshower'
     };
 
-    const projectFive = {
+    const projectSix = {
         deployedLink: 'https://jadams-fishinglog.herokuapp.com',
         githubLink: 'https://github.com/JaxonAdams/fishing-log',
         title: 'Fishing Log',
         imgName: 'fishing-log'
     };
 
-    const projectSix = {
-        deployedLink: 'https://bloc-goose-09649.herokuapp.com',
-        githubLink: 'https://github.com/emalie/devinitely-opinionated',
-        title: 'DEVinitely Opinionated',
-        imgName: 'devinitely-opinionated'
-    };
+    // const projectSix = {
+    //     deployedLink: 'https://bloc-goose-09649.herokuapp.com',
+    //     githubLink: 'https://github.com/emalie/devinitely-opinionated',
+    //     title: 'DEVinitely Opinionated',
+    //     imgName: 'devinitely-opinionated'
+    // };
 
     const projectSeven = {
         deployedLink: 'https://jaxonadams.github.io/taskmaster-pro',
