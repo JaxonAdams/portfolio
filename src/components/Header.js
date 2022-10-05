@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navigation from './Navigation';
 
 const Header = (props) => {
@@ -14,6 +14,28 @@ const Header = (props) => {
     } = props;
 
     const [ showMenu, setShowMenu ] = useState(false);
+
+    // disable page scrolling when menu is open
+    useEffect(() => {
+        const homePage = document.querySelector('#home');
+        const aboutPage = document.querySelector('#about');
+        const workPage = document.querySelector('#work');
+        const contactPage = document.querySelector('#contact');
+
+        if (showMenu) {
+            // disable scroll by adding 'noscroll' class to each page
+            homeSelected && homePage.classList.add('noscroll');
+            aboutSelected && aboutPage.classList.add('noscroll');
+            workSelected && workPage.classList.add('noscroll');
+            contactSelected && contactPage.classList.add('noscroll');
+        } else {
+            // enable scroll by removing 'noscroll' class to each page
+            homeSelected && homePage.classList.remove('noscroll');
+            aboutSelected && aboutPage.classList.remove('noscroll');
+            workSelected && workPage.classList.remove('noscroll');
+            contactSelected && contactPage.classList.remove('noscroll');
+        };
+    }, [showMenu, homeSelected, aboutSelected, workSelected, contactSelected]);
 
     const toggleMenu = () => {
         setShowMenu(!showMenu);
