@@ -3,7 +3,7 @@ import Project from './Project';
 
 const Work = () => {
     const projectOne = {
-        deployedLink: 'https://gottadance-fitness.herokuapp.com',
+        deployedLink: 'https://gd-fitness.vercel.app/',
         githubLink: 'https://github.com/JaxonAdams/gd-aerobics',
         title: 'Gotta Dance Punch Pass',
         imgName: 'gd-aerobics'
